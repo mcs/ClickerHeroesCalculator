@@ -1,6 +1,6 @@
 var webpack = require('webpack');
 
-var production = (process.env.NODE_ENV === 'production');
+var production = 'production';
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlMinifier = require('html-minifier');
